@@ -250,6 +250,18 @@ x
 x = 'yes' if 1<2 and 'f' in 'foo' else 'no'        
 x
 
+
+#######################
+## List comprehension
+#######################
+
+
+vals = range(10)
+
+[2*x for x in vals if x % 2 == 1]
+
+[2*x for x in vals if x % 2 == 1 and x not in [3]]
+
 #######################
 ## Functions in Python 
 #######################
@@ -331,3 +343,5 @@ my_vals_squared
 #* * *
 
 # Factorial(n)
+
+

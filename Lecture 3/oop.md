@@ -76,7 +76,9 @@ c1.spend(100)
 - `__init__` method which is a **constructor** of the class.
 - Any instance data should be prepended with `self`.
 - Any method referenced within the class should have `self` as argument and should be called as `self.method_name`.
-- 
 
+
+---
+# Prisoner Dilemma
 
 
